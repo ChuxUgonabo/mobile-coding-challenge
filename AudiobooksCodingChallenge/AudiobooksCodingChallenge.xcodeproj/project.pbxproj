@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843C3A9829F9FF8D00697569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9729F9FF8D00697569 /* AppDelegate.swift */; };
+		843C3A9A29F9FF8D00697569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9929F9FF8D00697569 /* SceneDelegate.swift */; };
+		843C3A9C29F9FF8D00697569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9B29F9FF8D00697569 /* ViewController.swift */; };
+		843C3A9F29F9FF8D00697569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C3A9D29F9FF8D00697569 /* Main.storyboard */; };
+		843C3AA129F9FF9200697569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C3AA029F9FF9200697569 /* Assets.xcassets */; };
+		843C3AA429F9FF9200697569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */; };
+		843C3AAF29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AAE29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift */; };
+		843C3AB929F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AB829F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift */; };
+		843C3ABB29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3ABA29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843C3AAB29F9FF9300697569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C3A8C29F9FF8C00697569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843C3A9329F9FF8C00697569;
+			remoteInfo = AudiobooksCodingChallenge;
+		};
+		843C3AB529F9FF9300697569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843C3A8C29F9FF8C00697569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843C3A9329F9FF8C00697569;
+			remoteInfo = AudiobooksCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843C3A9429F9FF8D00697569 /* AudiobooksCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiobooksCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C3A9729F9FF8D00697569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843C3A9929F9FF8D00697569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		843C3A9B29F9FF8D00697569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843C3A9E29F9FF8D00697569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843C3AA029F9FF9200697569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843C3AA329F9FF9200697569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843C3AA529F9FF9200697569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C3AAA29F9FF9300697569 /* AudiobooksCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiobooksCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C3AAE29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksCodingChallengeTests.swift; sourceTree = "<group>"; };
+		843C3AB429F9FF9300697569 /* AudiobooksCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiobooksCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843C3AB829F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksCodingChallengeUITests.swift; sourceTree = "<group>"; };
+		843C3ABA29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843C3A9129F9FF8C00697569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AA729F9FF9300697569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AB129F9FF9300697569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843C3A8B29F9FF8C00697569 = {
+			isa = PBXGroup;
+			children = (
+				843C3A9629F9FF8D00697569 /* AudiobooksCodingChallenge */,
+				843C3AAD29F9FF9300697569 /* AudiobooksCodingChallengeTests */,
+				843C3AB729F9FF9300697569 /* AudiobooksCodingChallengeUITests */,
+				843C3A9529F9FF8D00697569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843C3A9529F9FF8D00697569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843C3A9429F9FF8D00697569 /* AudiobooksCodingChallenge.app */,
+				843C3AAA29F9FF9300697569 /* AudiobooksCodingChallengeTests.xctest */,
+				843C3AB429F9FF9300697569 /* AudiobooksCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843C3A9629F9FF8D00697569 /* AudiobooksCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				843C3A9729F9FF8D00697569 /* AppDelegate.swift */,
+				843C3A9929F9FF8D00697569 /* SceneDelegate.swift */,
+				843C3AC829FA001600697569 /* Controller */,
+				843C3AC729FA000600697569 /* View */,
+				843C3AA029F9FF9200697569 /* Assets.xcassets */,
+				843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */,
+				843C3AA529F9FF9200697569 /* Info.plist */,
+			);
+			path = AudiobooksCodingChallenge;
+			sourceTree = "<group>";
+		};
+		843C3AAD29F9FF9300697569 /* AudiobooksCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				843C3AAE29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift */,
+			);
+			path = AudiobooksCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		843C3AB729F9FF9300697569 /* AudiobooksCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843C3AB829F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift */,
+				843C3ABA29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift */,
+			);
+			path = AudiobooksCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		843C3AC729FA000600697569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843C3A9D29F9FF8D00697569 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843C3AC829FA001600697569 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843C3A9B29F9FF8D00697569 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843C3A9329F9FF8C00697569 /* AudiobooksCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C3ABE29F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallenge" */;
+			buildPhases = (
+				843C3A9029F9FF8C00697569 /* Sources */,
+				843C3A9129F9FF8C00697569 /* Frameworks */,
+				843C3A9229F9FF8C00697569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiobooksCodingChallenge;
+			productName = AudiobooksCodingChallenge;
+			productReference = 843C3A9429F9FF8D00697569 /* AudiobooksCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843C3AA929F9FF9300697569 /* AudiobooksCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C3AC129F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallengeTests" */;
+			buildPhases = (
+				843C3AA629F9FF9300697569 /* Sources */,
+				843C3AA729F9FF9300697569 /* Frameworks */,
+				843C3AA829F9FF9300697569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843C3AAC29F9FF9300697569 /* PBXTargetDependency */,
+			);
+			name = AudiobooksCodingChallengeTests;
+			productName = AudiobooksCodingChallengeTests;
+			productReference = 843C3AAA29F9FF9300697569 /* AudiobooksCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843C3AB329F9FF9300697569 /* AudiobooksCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843C3AC429F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallengeUITests" */;
+			buildPhases = (
+				843C3AB029F9FF9300697569 /* Sources */,
+				843C3AB129F9FF9300697569 /* Frameworks */,
+				843C3AB229F9FF9300697569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843C3AB629F9FF9300697569 /* PBXTargetDependency */,
+			);
+			name = AudiobooksCodingChallengeUITests;
+			productName = AudiobooksCodingChallengeUITests;
+			productReference = 843C3AB429F9FF9300697569 /* AudiobooksCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843C3A8C29F9FF8C00697569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					843C3A9329F9FF8C00697569 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					843C3AA929F9FF9300697569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 843C3A9329F9FF8C00697569;
+					};
+					843C3AB329F9FF9300697569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 843C3A9329F9FF8C00697569;
+					};
+				};
+			};
+			buildConfigurationList = 843C3A8F29F9FF8C00697569 /* Build configuration list for PBXProject "AudiobooksCodingChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843C3A8B29F9FF8C00697569;
+			productRefGroup = 843C3A9529F9FF8D00697569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843C3A9329F9FF8C00697569 /* AudiobooksCodingChallenge */,
+				843C3AA929F9FF9300697569 /* AudiobooksCodingChallengeTests */,
+				843C3AB329F9FF9300697569 /* AudiobooksCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843C3A9229F9FF8C00697569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C3AA429F9FF9200697569 /* LaunchScreen.storyboard in Resources */,
+				843C3AA129F9FF9200697569 /* Assets.xcassets in Resources */,
+				843C3A9F29F9FF8D00697569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AA829F9FF9300697569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AB229F9FF9300697569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843C3A9029F9FF8C00697569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C3A9C29F9FF8D00697569 /* ViewController.swift in Sources */,
+				843C3A9829F9FF8D00697569 /* AppDelegate.swift in Sources */,
+				843C3A9A29F9FF8D00697569 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AA629F9FF9300697569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C3AAF29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843C3AB029F9FF9300697569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C3ABB29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift in Sources */,
+				843C3AB929F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843C3AAC29F9FF9300697569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843C3A9329F9FF8C00697569 /* AudiobooksCodingChallenge */;
+			targetProxy = 843C3AAB29F9FF9300697569 /* PBXContainerItemProxy */;
+		};
+		843C3AB629F9FF9300697569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843C3A9329F9FF8C00697569 /* AudiobooksCodingChallenge */;
+			targetProxy = 843C3AB529F9FF9300697569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843C3A9D29F9FF8D00697569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843C3A9E29F9FF8D00697569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843C3AA329F9FF9200697569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843C3ABC29F9FF9300697569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843C3ABD29F9FF9300697569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843C3ABF29F9FF9300697569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudiobooksCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843C3AC029F9FF9300697569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudiobooksCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843C3AC229F9FF9300697569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiobooksCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudiobooksCodingChallenge";
+			};
+			name = Debug;
+		};
+		843C3AC329F9FF9300697569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiobooksCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudiobooksCodingChallenge";
+			};
+			name = Release;
+		};
+		843C3AC529F9FF9300697569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudiobooksCodingChallenge;
+			};
+			name = Debug;
+		};
+		843C3AC629F9FF9300697569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N78DM3797;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jvcugonabo.AudiobooksCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudiobooksCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843C3A8F29F9FF8C00697569 /* Build configuration list for PBXProject "AudiobooksCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C3ABC29F9FF9300697569 /* Debug */,
+				843C3ABD29F9FF9300697569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C3ABE29F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C3ABF29F9FF9300697569 /* Debug */,
+				843C3AC029F9FF9300697569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C3AC129F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C3AC229F9FF9300697569 /* Debug */,
+				843C3AC329F9FF9300697569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843C3AC429F9FF9300697569 /* Build configuration list for PBXNativeTarget "AudiobooksCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C3AC529F9FF9300697569 /* Debug */,
+				843C3AC629F9FF9300697569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843C3A8C29F9FF8C00697569 /* Project object */;
+}
