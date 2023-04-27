@@ -69,10 +69,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="podcastFavouriteStateLabel" destination="ePC-32-tTV" id="uLK-GK-miX"/>
-                <outlet property="podcastPublisherNameLabel" destination="R1D-Oi-lPH" id="7Nf-6T-jYo"/>
-                <outlet property="podcastThumbnailImageView" destination="bE7-hJ-YgZ" id="079-ur-qga"/>
-                <outlet property="podcastTitleLabel" destination="y0f-YW-kqo" id="ODR-R6-GBB"/>
+                <outlet property="podcastCellFavouriteStateLabel" destination="ePC-32-tTV" id="uLK-GK-miX"/>
+                <outlet property="podcastCellPublisherNameLabel" destination="R1D-Oi-lPH" id="7Nf-6T-jYo"/>
+                <outlet property="podcastCellThumbnailImageView" destination="bE7-hJ-YgZ" id="079-ur-qga"/>
+                <outlet property="podcastCellTitleLabel" destination="y0f-YW-kqo" id="ODR-R6-GBB"/>
             </connections>
             <point key="canvasLocation" x="148.09160305343511" y="30.985915492957748"/>
         </tableViewCell>

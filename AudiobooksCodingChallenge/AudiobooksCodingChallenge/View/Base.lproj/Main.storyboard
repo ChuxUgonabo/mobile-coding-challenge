@@ -51,26 +51,32 @@
                             <constraint firstItem="3EV-Yt-RfR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hWh-ci-Ri2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="xyr-fO-j1Y" kind="show" id="6gF-cE-dmF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="98" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--Podcast Item View Controller-->
         <scene sceneID="HLK-Re-NBM">
             <objects>
-                <viewController id="xyr-fO-j1Y" sceneMemberID="viewController">
+                <viewController id="xyr-fO-j1Y" customClass="PodcastItemViewController" customModule="AudiobooksCodingChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5By-Lr-KpO">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmk-NA-piJ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="724"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbB-gn-3cf">
                                         <rect key="frame" x="10" y="20" width="83" height="22.333333333333329"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title=" Back" image="chevron.backward" catalog="system"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="xyr-fO-j1Y" eventType="touchUpInside" id="HEk-fw-VW8"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Indicator from Planet Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p67-kN-QGa">
                                         <rect key="frame" x="36" y="62.333333333333329" width="320" height="26"/>
@@ -85,7 +91,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFS-wC-nfL">
-                                        <rect key="frame" x="144" y="355" width="105" height="34.333333333333314"/>
+                                        <rect key="frame" x="144" y="320" width="105" height="34.333333333333314"/>
                                         <color key="tintColor" red="1" green="0.17654055340645197" blue="0.11947828611794219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Favourite"/>
@@ -94,7 +100,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9D-cj-ljf">
-                                        <rect key="frame" x="26" y="409.33333333333331" width="341" height="170.66666666666669"/>
+                                        <rect key="frame" x="26" y="374.33333333333331" width="341" height="170.66666666666669"/>
                                         <string key="text">A little show about big ideas. From the people who make Planet Money, The Indicator helps you make sense of what's happening today. It's a quick hit of insight into work, business, the economy, and everything else. Listen weekday afternoons. Got money on your mind? Try Planet Money+ - a new
 way to support the show you love, get a sponsor-free feed of the podcast, *and* get access to bonus content. A subscription also gets you access to The Indicator and Planet Money Summer School, both without interruptions.</string>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
@@ -102,7 +108,7 @@ way to support the show you love, get a sponsor-free feed of the podcast, *and* 
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BYy-VU-V8t">
-                                        <rect key="frame" x="76" y="142.33333333333337" width="240" height="192.66666666666663"/>
+                                        <rect key="frame" x="76" y="142.33333333333337" width="240" height="157.66666666666663"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -138,10 +144,11 @@ way to support the show you love, get a sponsor-free feed of the podcast, *and* 
                             <constraint firstItem="pmk-NA-piJ" firstAttribute="top" secondItem="l7n-a1-eoZ" secondAttribute="top" id="ntW-Fc-lgC"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ouF-Zr-5DR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhG-5n-UTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1029.7709923664122" y="8.4507042253521139"/>
+            <point key="canvasLocation" x="1030" y="-2"/>
         </scene>
     </scenes>
     <resources>

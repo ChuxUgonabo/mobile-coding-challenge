@@ -10,10 +10,10 @@ import UIKit
 class PodcastTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var podcastThumbnailImageView: UIImageView!
-    @IBOutlet weak var podcastTitleLabel: UILabel!
-    @IBOutlet weak var podcastPublisherNameLabel: UILabel!
-    @IBOutlet weak var podcastFavouriteStateLabel: UILabel!
+    @IBOutlet weak var podcastCellThumbnailImageView: UIImageView!
+    @IBOutlet weak var podcastCellTitleLabel: UILabel!
+    @IBOutlet weak var podcastCellPublisherNameLabel: UILabel!
+    @IBOutlet weak var podcastCellFavouriteStateLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
