@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodcastViewCell: UITableViewCell {
+class PodcastTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var podcastThumbnailImageView: UIImageView!

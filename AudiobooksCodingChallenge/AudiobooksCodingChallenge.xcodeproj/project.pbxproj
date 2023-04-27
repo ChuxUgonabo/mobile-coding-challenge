@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		843C3A9829F9FF8D00697569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9729F9FF8D00697569 /* AppDelegate.swift */; };
 		843C3A9A29F9FF8D00697569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9929F9FF8D00697569 /* SceneDelegate.swift */; };
-		843C3A9C29F9FF8D00697569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9B29F9FF8D00697569 /* ViewController.swift */; };
+		843C3A9C29F9FF8D00697569 /* PodcastListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3A9B29F9FF8D00697569 /* PodcastListViewController.swift */; };
 		843C3A9F29F9FF8D00697569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C3A9D29F9FF8D00697569 /* Main.storyboard */; };
 		843C3AA129F9FF9200697569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C3AA029F9FF9200697569 /* Assets.xcassets */; };
 		843C3AA429F9FF9200697569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */; };
 		843C3AAF29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AAE29F9FF9300697569 /* AudiobooksCodingChallengeTests.swift */; };
 		843C3AB929F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AB829F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift */; };
 		843C3ABB29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3ABA29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift */; };
-		843C3ACB29FA129900697569 /* PodcastViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AC929FA129800697569 /* PodcastViewCell.swift */; };
-		843C3ACC29FA129900697569 /* PodcastViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C3ACA29FA129800697569 /* PodcastViewCell.xib */; };
+		843C3ACB29FA129900697569 /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AC929FA129800697569 /* PodcastTableViewCell.swift */; };
+		843C3ACC29FA129900697569 /* PodcastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */; };
 		84B64A5B29FB2B5A00A59EB1 /* PodcastItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		843C3A9429F9FF8D00697569 /* AudiobooksCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiobooksCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C3A9729F9FF8D00697569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843C3A9929F9FF8D00697569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		843C3A9B29F9FF8D00697569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843C3A9B29F9FF8D00697569 /* PodcastListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastListViewController.swift; sourceTree = "<group>"; };
 		843C3A9E29F9FF8D00697569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843C3AA029F9FF9200697569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C3AA329F9FF9200697569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 		843C3AB429F9FF9300697569 /* AudiobooksCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiobooksCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C3AB829F9FF9300697569 /* AudiobooksCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		843C3ABA29F9FF9300697569 /* AudiobooksCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		843C3AC929FA129800697569 /* PodcastViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewCell.swift; sourceTree = "<group>"; };
-		843C3ACA29FA129800697569 /* PodcastViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastViewCell.xib; sourceTree = "<group>"; };
+		843C3AC929FA129800697569 /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
+		843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastTableViewCell.xib; sourceTree = "<group>"; };
 		84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				843C3A9D29F9FF8D00697569 /* Main.storyboard */,
-				843C3ACA29FA129800697569 /* PodcastViewCell.xib */,
+				843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,8 +145,8 @@
 		843C3AC829FA001600697569 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				843C3A9B29F9FF8D00697569 /* ViewController.swift */,
-				843C3AC929FA129800697569 /* PodcastViewCell.swift */,
+				843C3A9B29F9FF8D00697569 /* PodcastListViewController.swift */,
+				843C3AC929FA129800697569 /* PodcastTableViewCell.swift */,
 				84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */,
 			);
 			path = Controller;
@@ -257,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843C3AA429F9FF9200697569 /* LaunchScreen.storyboard in Resources */,
-				843C3ACC29FA129900697569 /* PodcastViewCell.xib in Resources */,
+				843C3ACC29FA129900697569 /* PodcastTableViewCell.xib in Resources */,
 				843C3AA129F9FF9200697569 /* Assets.xcassets in Resources */,
 				843C3A9F29F9FF8D00697569 /* Main.storyboard in Resources */,
 			);
@@ -285,8 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B64A5B29FB2B5A00A59EB1 /* PodcastItemViewController.swift in Sources */,
-				843C3A9C29F9FF8D00697569 /* ViewController.swift in Sources */,
-				843C3ACB29FA129900697569 /* PodcastViewCell.swift in Sources */,
+				843C3A9C29F9FF8D00697569 /* PodcastListViewController.swift in Sources */,
+				843C3ACB29FA129900697569 /* PodcastTableViewCell.swift in Sources */,
 				843C3A9829F9FF8D00697569 /* AppDelegate.swift in Sources */,
 				843C3A9A29F9FF8D00697569 /* SceneDelegate.swift in Sources */,
 			);
