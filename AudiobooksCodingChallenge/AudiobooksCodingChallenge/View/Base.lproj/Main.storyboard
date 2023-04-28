@@ -24,7 +24,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0Y-fJ-Y9l" userLabel="Podcasts title Lable">
-                                        <rect key="frame" x="20" y="40" width="98" height="27"/>
+                                        <rect key="frame" x="20" y="40" width="103" height="27"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -35,7 +35,7 @@
                                     <constraint firstItem="E0Y-fJ-Y9l" firstAttribute="top" secondItem="3EV-Yt-RfR" secondAttribute="top" constant="40" id="I6o-GB-oNK"/>
                                     <constraint firstItem="KDk-xM-Ckl" firstAttribute="leading" secondItem="3EV-Yt-RfR" secondAttribute="leading" constant="20" id="Wsb-iH-Mxh"/>
                                     <constraint firstAttribute="bottom" secondItem="KDk-xM-Ckl" secondAttribute="bottom" constant="5" id="YFZ-rP-Qxg"/>
-                                    <constraint firstAttribute="trailing" secondItem="E0Y-fJ-Y9l" secondAttribute="trailing" constant="275" id="abs-g2-cNe"/>
+                                    <constraint firstAttribute="trailing" secondItem="E0Y-fJ-Y9l" secondAttribute="trailing" constant="270" id="abs-g2-cNe"/>
                                     <constraint firstItem="KDk-xM-Ckl" firstAttribute="top" secondItem="E0Y-fJ-Y9l" secondAttribute="bottom" constant="20" id="ex9-ke-fC3"/>
                                     <constraint firstItem="E0Y-fJ-Y9l" firstAttribute="leading" secondItem="3EV-Yt-RfR" secondAttribute="leading" constant="20" id="ldS-gm-Vh7"/>
                                     <constraint firstAttribute="trailing" secondItem="KDk-xM-Ckl" secondAttribute="trailing" constant="20" id="xKf-fp-9H3"/>

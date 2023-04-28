@@ -19,6 +19,7 @@
 		843C3ACB29FA129900697569 /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C3AC929FA129800697569 /* PodcastTableViewCell.swift */; };
 		843C3ACC29FA129900697569 /* PodcastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */; };
 		84B64A5B29FB2B5A00A59EB1 /* PodcastItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */; };
+		84B64A5E29FB73D000A59EB1 /* PodcastAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64A5D29FB73D000A59EB1 /* PodcastAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		843C3AC929FA129800697569 /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
 		843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastTableViewCell.xib; sourceTree = "<group>"; };
 		84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastItemViewController.swift; sourceTree = "<group>"; };
+		84B64A5D29FB73D000A59EB1 /* PodcastAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +109,10 @@
 			children = (
 				843C3A9729F9FF8D00697569 /* AppDelegate.swift */,
 				843C3A9929F9FF8D00697569 /* SceneDelegate.swift */,
-				843C3AC829FA001600697569 /* Controller */,
+				84B64A5C29FB4E5400A59EB1 /* Model */,
 				843C3AC729FA000600697569 /* View */,
+				843C3AC829FA001600697569 /* Controller */,
 				843C3AA029F9FF9200697569 /* Assets.xcassets */,
-				843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */,
 				843C3AA529F9FF9200697569 /* Info.plist */,
 			);
 			path = AudiobooksCodingChallenge;
@@ -136,6 +138,7 @@
 		843C3AC729FA000600697569 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */,
 				843C3A9D29F9FF8D00697569 /* Main.storyboard */,
 				843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */,
 			);
@@ -150,6 +153,14 @@
 				84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		84B64A5C29FB4E5400A59EB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B64A5D29FB73D000A59EB1 /* PodcastAPIService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				843C3ACB29FA129900697569 /* PodcastTableViewCell.swift in Sources */,
 				843C3A9829F9FF8D00697569 /* AppDelegate.swift in Sources */,
 				843C3A9A29F9FF8D00697569 /* SceneDelegate.swift in Sources */,
+				84B64A5E29FB73D000A59EB1 /* PodcastAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
