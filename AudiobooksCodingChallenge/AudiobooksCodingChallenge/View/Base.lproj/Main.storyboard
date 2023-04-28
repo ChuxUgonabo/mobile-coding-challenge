@@ -52,6 +52,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="PodcastListTableVIew" destination="KDk-xM-Ckl" id="H1F-ii-ETx"/>
                         <segue destination="xyr-fO-j1Y" kind="show" id="6gF-cE-dmF"/>
                     </connections>
                 </viewController>
