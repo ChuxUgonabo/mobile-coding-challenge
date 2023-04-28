@@ -110,9 +110,11 @@
 				843C3A9729F9FF8D00697569 /* AppDelegate.swift */,
 				843C3A9929F9FF8D00697569 /* SceneDelegate.swift */,
 				84B64A5C29FB4E5400A59EB1 /* Model */,
-				843C3AC729FA000600697569 /* View */,
+				843C3AC729FA000600697569 /* Views */,
 				843C3AC829FA001600697569 /* Controller */,
 				843C3AA029F9FF9200697569 /* Assets.xcassets */,
+				843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */,
+				843C3A9D29F9FF8D00697569 /* Main.storyboard */,
 				843C3AA529F9FF9200697569 /* Info.plist */,
 			);
 			path = AudiobooksCodingChallenge;
@@ -135,21 +137,19 @@
 			path = AudiobooksCodingChallengeUITests;
 			sourceTree = "<group>";
 		};
-		843C3AC729FA000600697569 /* View */ = {
+		843C3AC729FA000600697569 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				843C3AA229F9FF9200697569 /* LaunchScreen.storyboard */,
-				843C3A9D29F9FF8D00697569 /* Main.storyboard */,
 				843C3ACA29FA129800697569 /* PodcastTableViewCell.xib */,
+				843C3AC929FA129800697569 /* PodcastTableViewCell.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		843C3AC829FA001600697569 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				843C3A9B29F9FF8D00697569 /* PodcastListViewController.swift */,
-				843C3AC929FA129800697569 /* PodcastTableViewCell.swift */,
 				84B64A5A29FB2B5A00A59EB1 /* PodcastItemViewController.swift */,
 			);
 			path = Controller;
