@@ -98,6 +98,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Favourite">
                                             <backgroundConfiguration key="background" cornerRadius="10"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="favouriteButtonAction:" destination="xyr-fO-j1Y" eventType="touchUpInside" id="wHQ-Nl-Xxx"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9D-cj-ljf">
                                         <rect key="frame" x="26" y="374.33333333333331" width="341" height="170.66666666666669"/>
@@ -145,6 +148,12 @@ way to support the show you love, get a sponsor-free feed of the podcast, *and* 
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ouF-Zr-5DR"/>
+                    <connections>
+                        <outlet property="podcastDescriptionLabel" destination="Z9D-cj-ljf" id="lRJ-Z3-ewF"/>
+                        <outlet property="podcastPublisherNameLabel" destination="rpG-J3-xkw" id="owx-bF-VC8"/>
+                        <outlet property="podcastThumbnailImageView" destination="BYy-VU-V8t" id="SHZ-AH-toh"/>
+                        <outlet property="podcastTitleLabel" destination="p67-kN-QGa" id="Rhk-ru-tjY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhG-5n-UTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
