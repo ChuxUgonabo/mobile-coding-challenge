@@ -17,4 +17,32 @@ struct PodcastAPIResponse: Codable {
     let description: String
 }
 
-
+class PodcastAPIService {
+    
+    static func getPodcastList(completion: @escaping ([PodcastAPIResponse]) -> Void) {
+        let url = URL(string: "https://listen-api-test.listennotes.com/api/v2/best_podcasts")!
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data else { return }
+            do {
+                let podcasts = try JSONDecoder().decode([PodcastAPIResponse].self, from: data)
+                completion(podcasts)
+            } catch {
+                print(error)
+            }
+        }.resume()
+    }
+    
+    static func retriveAndSetImage(imageUrlString: String, imageView: UIImageView) {
+        let imageUrl = URL(string: imageUrlString)!
+        let task = URLSession.shared.dataTask(with: imageUrl) { (data, response, error) in
+            if let imageData = data {
+                DispatchQueue.main.async {
+                    // Update your UI with the downloaded image data
+                    imageView.image = UIImage(data: imageData)
+                }
+            }
+        }
+        task.resume()
+    }
+}
