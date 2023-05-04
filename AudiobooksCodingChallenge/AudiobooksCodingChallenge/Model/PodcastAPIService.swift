@@ -9,23 +9,25 @@ import Foundation
 import UIKit
 
 // Listen Notes Podcast API
-struct PodcastAPIResponse: Codable {
-    let id: UUID
-    let title: String
-    let publisher: String
-    let thumbnail: String
-    let description: String
+struct PodcastAPIParentResponse: Codable {
+    struct PodcastAPIResponse: Codable {
+        let id: String
+        let title: String
+        let publisher: String
+        let thumbnail: String
+        let description: String
+    }
+    let podcasts: [PodcastAPIResponse]
 }
-
 class PodcastAPIService {
     
-    static func getPodcastList(completion: @escaping ([PodcastAPIResponse]) -> Void) {
+    static func getPodcastList(completion: @escaping ([PodcastAPIParentResponse.PodcastAPIResponse]) -> ()) {
         let url = URL(string: "https://listen-api-test.listennotes.com/api/v2/best_podcasts")!
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data else { return }
             do {
-                let podcasts = try JSONDecoder().decode([PodcastAPIResponse].self, from: data)
+                let podcasts = try JSONDecoder().decode(PodcastAPIParentResponse.self, from: data).podcasts
                 completion(podcasts)
             } catch {
                 print(error)
