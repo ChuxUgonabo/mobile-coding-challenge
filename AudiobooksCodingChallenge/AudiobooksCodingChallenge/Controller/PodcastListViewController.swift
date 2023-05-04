@@ -9,13 +9,51 @@ import UIKit
 
 class PodcastListViewController: UIViewController {
 
-    @IBOutlet weak var PodcastListTableVIew: UITableView!
+    @IBOutlet weak var podcastListTableVIew: UITableView!
     
+    var viewModel = PodcastListViewModel()
+    
+    let moveToPodcastItemVC = "MoveToPodcastItemVC"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        podcastListTableVIew.register(PodcastTableViewCell.nib(), forCellReuseIdentifier: PodcastTableViewCell.cellIdentifer)
+        podcastListTableVIew.dataSource = self
+        podcastListTableVIew.delegate = self
+        
+        viewModel.getPodcastList()
     }
-
 
 }
 
+// MARK: - UITableViewDelegate
+
+extension PodcastListViewController: UITableViewDataSource {
+    
+     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: PodcastTableViewCell.cellIdentifer, for: indexPath) as? PodcastTableViewCell else{
+            return UITableViewCell()
+        }
+        
+        let podcast = viewModel.podcastForIndexPath(indexPath)
+        cell.configure(podcast: podcast)
+        
+        return cell
+    }
+    
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.numberOfRowsInSection(section)
+    }
+
+     func numberOfSections(in tableView: UITableView) -> Int {
+        return viewModel.numberOfSections
+    }
+}
+
+extension PodcastListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: moveToPodcastItemVC, sender: self)
+
+    }
+}
