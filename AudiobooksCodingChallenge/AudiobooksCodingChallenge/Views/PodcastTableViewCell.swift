@@ -15,15 +15,28 @@ class PodcastTableViewCell: UITableViewCell {
     @IBOutlet weak var podcastCellPublisherNameLabel: UILabel!
     @IBOutlet weak var podcastCellFavouriteStateLabel: UILabel!
     
+    static let cellIdentifer = "PodcastTableViewCell"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    static func nib() ->  UINib {
+        return UINib(nibName: cellIdentifer, bundle: nil)
+    }
+    
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func configure(podcast: Podcast) {
+        podcastCellTitleLabel.text = podcast.title
+        podcastCellPublisherNameLabel.text = podcast.publisherName
+        PodcastAPIService.retriveAndSetImage(imageUrlString: podcast.thumbnailUrl, imageView: podcastCellThumbnailImageView)
     }
     
 }
