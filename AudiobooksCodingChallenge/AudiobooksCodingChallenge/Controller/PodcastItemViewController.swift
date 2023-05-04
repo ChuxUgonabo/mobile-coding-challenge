@@ -14,9 +14,15 @@ class PodcastItemViewController: UIViewController {
     @IBOutlet weak var podcastThumbnailImageView: UIImageView!
     @IBOutlet weak var podcastDescriptionLabel: UILabel!
     
+    var selectedPodcast: Podcast?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        if let selectedPodcast = selectedPodcast {
+            
+        }
     }
 
 

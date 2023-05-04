@@ -53,7 +53,16 @@ extension PodcastListViewController: UITableViewDataSource {
 
 extension PodcastListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: moveToPodcastItemVC, sender: self)
-
+        let selectedPodcast = viewModel.podcastForIndexPath(indexPath)
+        self.performSegue(withIdentifier: moveToPodcastItemVC, sender: (selectedPodcast))
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == moveToPodcastItemVC {
+            if let (selectedPodcast) = sender as? (Podcast) {
+                let podcastItemVC = segue.destination as! PodcastItemViewController
+                podcastItemVC.selectedPodcast = selectedPodcast
+            }
+        }
     }
 }
