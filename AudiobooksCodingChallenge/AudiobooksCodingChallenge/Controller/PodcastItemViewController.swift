@@ -21,12 +21,19 @@ class PodcastItemViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         if let selectedPodcast = selectedPodcast {
+            // Display values for selected Podcast to UI element
+            podcastTitleLabel.text = selectedPodcast.title
+            podcastPublisherNameLabel.text = selectedPodcast.publisherName
+            podcastDescriptionLabel.text = selectedPodcast.description
+            PodcastAPIService.retriveAndSetImage(imageUrlString: selectedPodcast.thumbnailUrl, imageView: podcastThumbnailImageView)
             
         }
     }
 
 
     @IBAction func backButtonAction(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+        
     }
     
     @IBAction func favouriteButtonAction(_ sender: UIButton) {
